@@ -4,11 +4,13 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.cpp
+        main.cpp \
+        vec4.cpp
 
 HEADERS += \
         vec4.h \
         mat4.h
 
 DISTFILES += \
-    README
+    README \
+    log
