@@ -5,6 +5,7 @@ CONFIG -= qt
 
 SOURCES += \
         main.cpp \
+        mat4.cpp \
         vec4.cpp
 
 HEADERS += \

@@ -155,7 +155,7 @@ vec4 normalize(const vec4& v) {
 // Pretty print
 
 std::ostream& operator<<(std::ostream &o, const vec4 &v) {
-    o << std::fixed << std::setprecision(2);
+    o << std::fixed << std::setprecision(1);
     o << "(" << v[0] << ", " << v[1] << ", " << v[2] << ", " << v[3] << ")";
     return o;
 }
