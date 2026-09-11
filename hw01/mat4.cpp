@@ -56,6 +56,10 @@ vec4 row(const mat4 &m, unsigned int index) {
 
 // 3d rotation matrix
 
+mat4 mat4::rotate(float angle, float x, float y, float z) {
+    return mat4();
+}
+
 // 3d trasnaltion matrix
 
 mat4 mat4::translate(float x, float y, float z) {
