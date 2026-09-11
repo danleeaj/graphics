@@ -126,9 +126,9 @@ float dot(const vec4 &v1, const vec4 &v2) {
 
 // Cross product
 vec4 cross(const vec4 &v1, const vec4 &v2) {
-    float a = v1[2]*v2[3] - v1[3]*v2[2];
-    float b = v1[3]*v2[1] - v1[1]*v2[3];
-    float c = v1[1]*v2[2] - v1[2]*v2[1];
+    float a = v1[1]*v2[2] - v1[2]*v2[1];
+    float b = v1[2]*v2[0] - v1[0]*v2[2];
+    float c = v1[0]*v2[1] - v1[1]*v2[0];
     return vec4(a, b, c, 0.f);
 }
 
